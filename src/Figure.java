@@ -4,10 +4,10 @@ public class Figure {
     double length;
     public Figure(){
     }
-    public Figure (double figureheight, double figurewidth, double figurelength ){
-        this.height = figureheight;
-        this.width = figurewidth;
-        this.length = figurelength;
+    public Figure (double figureHeight, double figureWidth, double figureLength ){
+        this.height = figureHeight;
+        this.width = figureWidth;
+        this.length = figureLength;
     }
     public double calculateVolume () {
         double volume;
